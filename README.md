@@ -1,9 +1,28 @@
-# Ambulance-Allocation-Optimization
+# 🚑 Ambulance Allocation Optimization
 
-This is a Java simulation program of the ambulance service to find the optimal distribution of
-the ambulances across the regions that minimize the expected number of calls for which the 15-
-minute response time is not met. In particular, randomly generate emergency calls, process/serve
-the emergency calls and count the number of calls for which the 15-minute response time is not met. An ambulance service at a hospital has to cover a total of seven regions. Every region, which is hexagon shaped and fits precisely inside a circle with a diameter of 10 kilometer, has an ambulance
-waiting dock placed at its center and the hospital is located in the middle region, thus the hospital is a waiting dock as well. In total, the ambulance server has 20 ambulances that need to be placed at the waiting docks.
 
-The project is in Java
+A Java simulation program that optimizes ambulance distribution across seven hexagonal regions to minimize emergency response times exceeding 15 minutes, with constraints of 20 available ambulances.
+
+
+## ✨ Key Features
+
+- **Geospatial Simulation**:
+  - Seven hexagonal regions (10km diameter each)
+  - Hospital at central region
+  - Ambulance waiting docks at each center
+
+- **Optimization Engine**:
+  - Minimizes 15-minute response time failures
+  - Dynamic ambulance allocation strategies
+  - Emergency call event simulation
+
+- **Performance Metrics**:
+  - Response time statistics
+  - Coverage efficiency analysis
+  - Resource utilization reports
+
+## 🚀 Getting Started
+
+Result demo:
+
+![Simulation_result](https://github.com/user-attachments/assets/376f8a5d-54eb-4a62-a330-47cbd0f4ed68)
